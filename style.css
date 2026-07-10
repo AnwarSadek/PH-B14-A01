@@ -28,12 +28,6 @@ html {
     color: black;
 }
 
-/* .nav-parent div a:hover,
-.nav-parent div a.active{
-    color: rgb(232, 224, 255);
-    background-color: rgb(28, 22, 195);
-    border-radius: 5px;
-} */
 .nav-content {
     display: flex;
     gap: 20px;
@@ -86,3 +80,33 @@ html {
     margin-bottom: 30px;
 }
 
+/* speaker section css  */
+.box-container {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 50px;
+}
+.box-item {
+    padding: 15px;
+    margin: 10px;
+    text-align: left;
+}
+.box-item img {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+.speaker-parent {
+    margin-top: 30px;
+}
+.speaker-parent h1 {
+    font-size: 45px;
+    text-align: center;
+}
+.box-item h5 {
+    color: rgb(17, 94, 196);
+    margin: 5px 0;
+}
+.box-item h3 {
+    margin: 5px 0;
+}
