@@ -48,8 +48,8 @@ html {
 /* hero section css  */
 .hero-parent {
     background-image:
-    linear-gradient(rgba(54, 52, 52, 0.6), rgba(0, 0, 0, 0.6)),
-    url("./assets/banner.jpg");
+        linear-gradient(rgba(54, 52, 52, 0.6), rgba(0, 0, 0, 0.6)),
+        url("./assets/banner.jpg");
     background-size: cover;
     background-position: center;
     color: white;
@@ -86,27 +86,108 @@ html {
     grid-template: 1fr 1fr / 1fr 1fr;
     gap: 50px;
 }
+
 .box-item {
     padding: 15px;
     margin: 10px;
     text-align: left;
 }
+
 .box-item img {
     border-radius: 8px;
     height: 100%;
     width: 100%;
 }
+
 .speaker-parent {
     margin-top: 30px;
 }
+
 .speaker-parent h1 {
     font-size: 45px;
     text-align: center;
 }
+
 .box-item h5 {
     color: rgb(17, 94, 196);
     margin: 5px 0;
 }
+
 .box-item h3 {
     margin: 5px 0;
+}
+
+/* pricing section css  */
+.pricing-parent {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.pricing-parent h1 {
+    font-size: 45px;
+}
+
+.pricing-parent p {
+    color: rgb(139, 129, 129);
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: stretch;
+    margin-top: 30px;
+}
+
+.pricing-box {
+    flex: 1;
+    border: 1px solid #bacbdf;
+    border-radius: 12px;
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.pricing-box-item h5 {
+    color: gray;
+}
+
+.pricing-box-item h1 {
+    margin: 8px 0;
+}
+
+.pricing-box-item p {
+    margin-bottom: 15px;
+}
+
+.pricing-box-item ul {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.pricing-box-item{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.con-btn {
+    background-color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+}
+.futured-btn {
+    background-color: rgb(84, 28, 240);
+    color: white;
+}
+.Standard-btn {
+    color: blue;
+    border-color: blue;
 }
