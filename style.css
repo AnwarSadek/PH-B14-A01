@@ -221,3 +221,26 @@ html {
     font-weight: 600;
     cursor: pointer;
 }
+
+/* footer css  */
+.footer-parent {
+    margin-top: 80px;
+}
+.footer-box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.footer-social {
+    display: flex;
+    gap: 20px;
+}
+.footer-hr {
+    margin: 20px 0;
+}
+.footer-copyright{
+    text-align: center;
+    color: #777;
+    padding-bottom: 20px;
+}
