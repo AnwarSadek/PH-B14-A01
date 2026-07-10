@@ -191,3 +191,10 @@ html {
     color: blue;
     border-color: blue;
 }
+.futured-box{
+    background-color: rgb(14, 13, 27);
+    color: white;
+}
+.futured-box h5 {
+    color: rgb(84, 28, 240);
+}
